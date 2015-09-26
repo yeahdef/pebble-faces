@@ -7,7 +7,8 @@ Pebble watches.
     
     voice-only "I'm feeling lucky" image search
 
-The workflow would be like this:
+The workflow would be like this: 
+
 1. launch who-dat-is on Pebble (via shortcut?).
 2. begins listening for voice.
 3. performs google image search for the spoken string (person's name).
