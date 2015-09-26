@@ -1,11 +1,27 @@
-pebble-faces
-============
+who-dat-is?
+===========
 
-This Pebble application downloads PNG images from the Internet, de-compress the
-PNG into a bitmap and then display it on the screen of Pebble. It will display
-pictures of the Pebble developer evangelism team!
+This repo is a placeholder for where I will store an app I want to create for
+Pebble watches.
+"who-dat-is?" will eventually be what could be described as a
+    
+    voice-only "I'm feeling lucky" image search
 
-![](screenshots/screenshot.png)
+The workflow would be like this:
+1. launch who-dat-is on Pebble (via shortcut?).
+2. begins listening for voice.
+3. performs google image search for the spoken string (person's name).
+4. downloads best guess for an image for that string.
+5. converts image to be rendered for display on pebble.
+6. displays image on pebble screen (back to dismiss? timeout?)
+
+The heavy lifting for this concept has already been done in the pebble app examples.
+The only piece I am waiting on is for the Pebble SDK to allow access to the microphone.
+Pebble has stated this is coming "soon".
+
+|||||||||||||||||||||||||||||||||||||||||
+And so I shall wait.......
+|||||||||||||||||||||||||||||||||||||||||
 
 It is designed to be easily reusable in your own application.
 
